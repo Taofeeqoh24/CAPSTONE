@@ -1,0 +1,110 @@
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    padding-left: 300px;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+    margin-right: 2px;
+}
+
+.name {
+    font-size: 40px;
+    font-weight: bold;
+    color: #2600ff;
+    line-height: 35px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h1 {
+    color: #333;
+    margin: 20px 0;
+  }
+  
+  form, div {
+    width: 80%;
+    max-width: 600px;
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  form input, form textarea, form select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #0056b3;
+  }
+  
+  #task-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #task-list li {
+    background: #fff;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  #task-list h4 {
+    margin: 0 0 10px;
+  }
+  
+  #task-list p {
+    margin: 5px 0;
+  }
+  
+  #task-list button {
+    background-color: #dc3545;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #task-list button:hover {
+    background-color: #c82333;
+  }
+  
+  #task-list button + button {
+    background-color: #007bff;
+    margin-left: 10px;
+  }
+  
+  #task-list button + button:hover {
+    background-color: #0056b3;
+  }
+  

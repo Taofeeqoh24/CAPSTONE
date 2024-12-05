@@ -69,7 +69,7 @@
     </style>
 </head>
 <body>
-    <form id="loginForm">
+    <form id="loginForm" method="POST">
         <div class="logo-container">
             <img src="../images/logo.png" class="logo">
             <h1 class="name">TaskMaster</h1>
@@ -77,14 +77,15 @@
        <marquee><h3>Log in to continue</h3></marquee>
         <br>
         <label for="email">Email</label>
-        <input type="email" name="email" id="email">
+        <input type="email" name="email" id="l-email" required>
         <br>
         <label for="password">Password</label>
-        <input type="password" name="password" id="password">
+        <input type="password" name="password" id="l-password" required>
         <br>
         <a href="register.html">Register here to get started? Create Account</a>
         <br>
         <button type="submit" class="submit">Login</button>
     </form>
+    <script src="../js/login.js"></script>
 </body>
 </html>

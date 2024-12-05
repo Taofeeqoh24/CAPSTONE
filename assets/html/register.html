@@ -70,29 +70,29 @@
     </style>
 </head>
 <body>
-    <form id="registerForm">
+    <form id="registerForm" action="/auth/register" method="POST">
         <div class="logo-container">
             <img src="../images/logo.png" class="logo">
             <h1 class="name">TaskMaster</h1>
         </div>
        <marquee><h3>Sign up to continue</h3></marquee>
         <br>
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" required>
         <label for="email">Email</label>
-        <input type="email" name="email" id="email">
+        <input type="email" name="email" id="email" required>
         <br>
         <label for="password">Password</label>
-        <input type="password" name="password" id="password">
+        <input type="password" name="password" id="password" required>
         <br>
-        <label for="confirmpassword">Confirm Password</label>
-        <input type="password" id="confirmpassword" name="confirmpassword">
-        <br>
-        <input type="checkbox" id="terms-checkbox" name="terms-checkbox">
+        <input type="checkbox" id="terms-checkbox" name="terms-checkbox" required>
         <label for="terms-checkbox">I agree to the Terms and Conditions</label>
         <h6>By signing up, i accept the TaskMaster Terms of Service<br>
         and acknowledge the Privacy Policy.</h6>
-        <a href="login.html">Already have a TaskMaster Account? Log in</a>
+        <a href="/login">Already have a TaskMaster Account? Log in</a>
         <br>
         <button type="submit" class="submit">Sign up</button>
     </form>
+    <script src="/assets/js/register.js"></script>
 </body>
 </html>
